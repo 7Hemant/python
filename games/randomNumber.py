@@ -36,3 +36,7 @@ def computer_guess(x):
             low = guess + 1 
 
     print(f"correst guess {guess}")   
+
+computer_guess()
+
+
