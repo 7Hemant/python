@@ -22,7 +22,7 @@ The task's properties have the following semantic:
     {
       "label": "git commit",
       "type": "shell",
-      "command": "git commit -m 'updating' ",
+      "command": "git commit -m ${input:message}",
       "dependsOn": "git add"
     },
     {
@@ -46,6 +46,14 @@ The task's properties have the following semantic:
       "options": {
         "cwd": "${workspaceFolder}/games"
       }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "message",
+      "type": "promptString",
+      "description": "commit message",
+      "default": "updating"
     }
   ]
 }
