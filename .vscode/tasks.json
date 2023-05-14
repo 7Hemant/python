@@ -20,7 +20,7 @@ The task's properties have the following semantic:
       "command": "git add ."
     },
     {
-      "label": "git commit ",
+      "label": "git commit",
       "type": "shell",
       "command": "git commit -m 'updating' ",
       "dependsOn": "git add"
