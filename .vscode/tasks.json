@@ -32,17 +32,9 @@ The task's properties have the following semantic:
       "dependsOn": "git commit"
     },
     {
-      "label": "randomNumbers",
+      "label": "Run Python File",
       "type": "shell",
-      "command": "python randomNumber.py",
-      "options": {
-        "cwd": "${workspaceFolder}/games"
-      }
-    },
-    {
-      "label": "Rock_Paper_Scissor",
-      "type": "shell",
-      "command": "python Rock_Paper_Scissors.py",
+      "command": "python ${input:fileName}",
       "options": {
         "cwd": "${workspaceFolder}/games"
       }
@@ -54,6 +46,11 @@ The task's properties have the following semantic:
       "type": "promptString",
       "description": "commit message",
       "default": "updating"
+    },
+    {
+      "id": "fileName",
+      "type": "promptString",
+      "description": "EnterFileName"
     }
   ]
 }
