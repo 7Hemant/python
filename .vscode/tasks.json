@@ -39,7 +39,7 @@ The task's properties have the following semantic:
     {
       "label": "Run Python File",
       "type": "shell",
-      "command": "python ${input:fileName}",
+      // "command": "python ${input:fileName}",
       "options": {
         "cwd": "${workspaceFolder}/games"
       }
@@ -51,11 +51,11 @@ The task's properties have the following semantic:
       "type": "promptString",
       "description": "commit message",
       "default": "updating"
-    },
-    {
-      "id": "fileName",
-      "type": "promptString",
-      "description": "EnterFileName"
     }
+    // {
+    //   "id": "fileName",
+    //   "type": "promptString",
+    //   "description": "EnterFileName"
+    // }
   ]
 }
