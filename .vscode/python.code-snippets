@@ -15,7 +15,7 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "hello": {
+  "print": {
     "scope": "javascript,html,python",
     "prefix": "p",
     "body": "print()"
