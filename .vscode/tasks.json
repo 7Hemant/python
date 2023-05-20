@@ -49,9 +49,9 @@ The task's properties have the following semantic:
     {
       "id": "message",
       "type": "promptString",
-      "description": "commit message",
+      "description": "commit  message",
       "default": "updating"
-    }
+    },
     {
       "id": "fileName",
       "type": "promptString",

@@ -14,3 +14,4 @@ def hangman():
     word = get_valid_word(words)
     word_letter = set(word)
     # not completed yet
+
