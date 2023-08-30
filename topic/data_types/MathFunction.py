@@ -7,3 +7,7 @@ x =8.6
 print (round(x))
 # abs return absolute of the argument
 print (abs(x))
+
+# bin() return binary number 
+x =6
+print (bin(x))
