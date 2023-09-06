@@ -1,2 +1,3 @@
 notes.txt
 django/virtual/**
+__pycache__
